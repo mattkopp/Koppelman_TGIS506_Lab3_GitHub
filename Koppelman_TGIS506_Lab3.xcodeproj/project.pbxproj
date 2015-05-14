@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2819841AFEAFFF00D1E5E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2819831AFEAFFF00D1E5E5 /* Foundation.framework */; };
+		CE2819861AFEAFFF00D1E5E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2819851AFEAFFF00D1E5E5 /* CoreGraphics.framework */; };
+		CE2819881AFEAFFF00D1E5E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2819871AFEAFFF00D1E5E5 /* UIKit.framework */; };
+		CE28198E1AFEB00000D1E5E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE28198C1AFEB00000D1E5E5 /* InfoPlist.strings */; };
+		CE2819901AFEB00000D1E5E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28198F1AFEB00000D1E5E5 /* main.m */; };
+		CE2819941AFEB00100D1E5E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2819931AFEB00100D1E5E5 /* AppDelegate.m */; };
+		CE2819971AFEB00100D1E5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2819951AFEB00100D1E5E5 /* Main.storyboard */; };
+		CE28199A1AFEB00100D1E5E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2819991AFEB00100D1E5E5 /* ViewController.m */; };
+		CE28199C1AFEB00100D1E5E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE28199B1AFEB00100D1E5E5 /* Images.xcassets */; };
+		CE2819A31AFEB00100D1E5E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2819A21AFEB00100D1E5E5 /* XCTest.framework */; };
+		CE2819A41AFEB00100D1E5E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2819831AFEAFFF00D1E5E5 /* Foundation.framework */; };
+		CE2819A51AFEB00100D1E5E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2819871AFEAFFF00D1E5E5 /* UIKit.framework */; };
+		CE2819AD1AFEB00100D1E5E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE2819AB1AFEB00100D1E5E5 /* InfoPlist.strings */; };
+		CE2819AF1AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2819AE1AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests.m */; };
+		CE2819B91AFEB02600D1E5E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2819B81AFEB02600D1E5E5 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2819A61AFEB00100D1E5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2819781AFEAFFF00D1E5E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE28197F1AFEAFFF00D1E5E5;
+			remoteInfo = Koppelman_TGIS506_Lab3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2819801AFEAFFF00D1E5E5 /* Koppelman_TGIS506_Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koppelman_TGIS506_Lab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2819831AFEAFFF00D1E5E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE2819851AFEAFFF00D1E5E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE2819871AFEAFFF00D1E5E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE28198B1AFEB00000D1E5E5 /* Koppelman_TGIS506_Lab3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Koppelman_TGIS506_Lab3-Info.plist"; sourceTree = "<group>"; };
+		CE28198D1AFEB00000D1E5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE28198F1AFEB00000D1E5E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE2819911AFEB00000D1E5E5 /* Koppelman_TGIS506_Lab3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Koppelman_TGIS506_Lab3-Prefix.pch"; sourceTree = "<group>"; };
+		CE2819921AFEB00000D1E5E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE2819931AFEB00100D1E5E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE2819961AFEB00100D1E5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2819981AFEB00100D1E5E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE2819991AFEB00100D1E5E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE28199B1AFEB00100D1E5E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE2819A11AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Koppelman_TGIS506_Lab3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2819A21AFEB00100D1E5E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE2819AA1AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Koppelman_TGIS506_Lab3Tests-Info.plist"; sourceTree = "<group>"; };
+		CE2819AC1AFEB00100D1E5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE2819AE1AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Koppelman_TGIS506_Lab3Tests.m; sourceTree = "<group>"; };
+		CE2819B81AFEB02600D1E5E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE28197D1AFEAFFF00D1E5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2819B91AFEB02600D1E5E5 /* MapKit.framework in Frameworks */,
+				CE2819861AFEAFFF00D1E5E5 /* CoreGraphics.framework in Frameworks */,
+				CE2819881AFEAFFF00D1E5E5 /* UIKit.framework in Frameworks */,
+				CE2819841AFEAFFF00D1E5E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE28199E1AFEB00100D1E5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2819A31AFEB00100D1E5E5 /* XCTest.framework in Frameworks */,
+				CE2819A51AFEB00100D1E5E5 /* UIKit.framework in Frameworks */,
+				CE2819A41AFEB00100D1E5E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2819771AFEAFFF00D1E5E5 = {
+			isa = PBXGroup;
+			children = (
+				CE2819891AFEB00000D1E5E5 /* Koppelman_TGIS506_Lab3 */,
+				CE2819A81AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests */,
+				CE2819821AFEAFFF00D1E5E5 /* Frameworks */,
+				CE2819811AFEAFFF00D1E5E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2819811AFEAFFF00D1E5E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2819801AFEAFFF00D1E5E5 /* Koppelman_TGIS506_Lab3.app */,
+				CE2819A11AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2819821AFEAFFF00D1E5E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE2819B81AFEB02600D1E5E5 /* MapKit.framework */,
+				CE2819831AFEAFFF00D1E5E5 /* Foundation.framework */,
+				CE2819851AFEAFFF00D1E5E5 /* CoreGraphics.framework */,
+				CE2819871AFEAFFF00D1E5E5 /* UIKit.framework */,
+				CE2819A21AFEB00100D1E5E5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2819891AFEB00000D1E5E5 /* Koppelman_TGIS506_Lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				CE2819921AFEB00000D1E5E5 /* AppDelegate.h */,
+				CE2819931AFEB00100D1E5E5 /* AppDelegate.m */,
+				CE2819951AFEB00100D1E5E5 /* Main.storyboard */,
+				CE2819981AFEB00100D1E5E5 /* ViewController.h */,
+				CE2819991AFEB00100D1E5E5 /* ViewController.m */,
+				CE28199B1AFEB00100D1E5E5 /* Images.xcassets */,
+				CE28198A1AFEB00000D1E5E5 /* Supporting Files */,
+			);
+			path = Koppelman_TGIS506_Lab3;
+			sourceTree = "<group>";
+		};
+		CE28198A1AFEB00000D1E5E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE28198B1AFEB00000D1E5E5 /* Koppelman_TGIS506_Lab3-Info.plist */,
+				CE28198C1AFEB00000D1E5E5 /* InfoPlist.strings */,
+				CE28198F1AFEB00000D1E5E5 /* main.m */,
+				CE2819911AFEB00000D1E5E5 /* Koppelman_TGIS506_Lab3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE2819A81AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2819AE1AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests.m */,
+				CE2819A91AFEB00100D1E5E5 /* Supporting Files */,
+			);
+			path = Koppelman_TGIS506_Lab3Tests;
+			sourceTree = "<group>";
+		};
+		CE2819A91AFEB00100D1E5E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE2819AA1AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests-Info.plist */,
+				CE2819AB1AFEB00100D1E5E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE28197F1AFEAFFF00D1E5E5 /* Koppelman_TGIS506_Lab3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2819B21AFEB00100D1E5E5 /* Build configuration list for PBXNativeTarget "Koppelman_TGIS506_Lab3" */;
+			buildPhases = (
+				CE28197C1AFEAFFF00D1E5E5 /* Sources */,
+				CE28197D1AFEAFFF00D1E5E5 /* Frameworks */,
+				CE28197E1AFEAFFF00D1E5E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Koppelman_TGIS506_Lab3;
+			productName = Koppelman_TGIS506_Lab3;
+			productReference = CE2819801AFEAFFF00D1E5E5 /* Koppelman_TGIS506_Lab3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2819A01AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2819B51AFEB00100D1E5E5 /* Build configuration list for PBXNativeTarget "Koppelman_TGIS506_Lab3Tests" */;
+			buildPhases = (
+				CE28199D1AFEB00100D1E5E5 /* Sources */,
+				CE28199E1AFEB00100D1E5E5 /* Frameworks */,
+				CE28199F1AFEB00100D1E5E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2819A71AFEB00100D1E5E5 /* PBXTargetDependency */,
+			);
+			name = Koppelman_TGIS506_Lab3Tests;
+			productName = Koppelman_TGIS506_Lab3Tests;
+			productReference = CE2819A11AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2819781AFEAFFF00D1E5E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matt Koppelman";
+				TargetAttributes = {
+					CE2819A01AFEB00100D1E5E5 = {
+						TestTargetID = CE28197F1AFEAFFF00D1E5E5;
+					};
+				};
+			};
+			buildConfigurationList = CE28197B1AFEAFFF00D1E5E5 /* Build configuration list for PBXProject "Koppelman_TGIS506_Lab3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2819771AFEAFFF00D1E5E5;
+			productRefGroup = CE2819811AFEAFFF00D1E5E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE28197F1AFEAFFF00D1E5E5 /* Koppelman_TGIS506_Lab3 */,
+				CE2819A01AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE28197E1AFEAFFF00D1E5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE28199C1AFEB00100D1E5E5 /* Images.xcassets in Resources */,
+				CE28198E1AFEB00000D1E5E5 /* InfoPlist.strings in Resources */,
+				CE2819971AFEB00100D1E5E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE28199F1AFEB00100D1E5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2819AD1AFEB00100D1E5E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE28197C1AFEAFFF00D1E5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE28199A1AFEB00100D1E5E5 /* ViewController.m in Sources */,
+				CE2819941AFEB00100D1E5E5 /* AppDelegate.m in Sources */,
+				CE2819901AFEB00000D1E5E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE28199D1AFEB00100D1E5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2819AF1AFEB00100D1E5E5 /* Koppelman_TGIS506_Lab3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2819A71AFEB00100D1E5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE28197F1AFEAFFF00D1E5E5 /* Koppelman_TGIS506_Lab3 */;
+			targetProxy = CE2819A61AFEB00100D1E5E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE28198C1AFEB00000D1E5E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE28198D1AFEB00000D1E5E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE2819951AFEB00100D1E5E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2819961AFEB00100D1E5E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2819AB1AFEB00100D1E5E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2819AC1AFEB00100D1E5E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2819B01AFEB00100D1E5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE2819B11AFEB00100D1E5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2819B31AFEB00100D1E5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Koppelman_TGIS506_Lab3/Koppelman_TGIS506_Lab3-Prefix.pch";
+				INFOPLIST_FILE = "Koppelman_TGIS506_Lab3/Koppelman_TGIS506_Lab3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE2819B41AFEB00100D1E5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Koppelman_TGIS506_Lab3/Koppelman_TGIS506_Lab3-Prefix.pch";
+				INFOPLIST_FILE = "Koppelman_TGIS506_Lab3/Koppelman_TGIS506_Lab3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE2819B61AFEB00100D1E5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Koppelman_TGIS506_Lab3.app/Koppelman_TGIS506_Lab3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Koppelman_TGIS506_Lab3/Koppelman_TGIS506_Lab3-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Koppelman_TGIS506_Lab3Tests/Koppelman_TGIS506_Lab3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE2819B71AFEB00100D1E5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Koppelman_TGIS506_Lab3.app/Koppelman_TGIS506_Lab3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Koppelman_TGIS506_Lab3/Koppelman_TGIS506_Lab3-Prefix.pch";
+				INFOPLIST_FILE = "Koppelman_TGIS506_Lab3Tests/Koppelman_TGIS506_Lab3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE28197B1AFEAFFF00D1E5E5 /* Build configuration list for PBXProject "Koppelman_TGIS506_Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2819B01AFEB00100D1E5E5 /* Debug */,
+				CE2819B11AFEB00100D1E5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2819B21AFEB00100D1E5E5 /* Build configuration list for PBXNativeTarget "Koppelman_TGIS506_Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2819B31AFEB00100D1E5E5 /* Debug */,
+				CE2819B41AFEB00100D1E5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE2819B51AFEB00100D1E5E5 /* Build configuration list for PBXNativeTarget "Koppelman_TGIS506_Lab3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2819B61AFEB00100D1E5E5 /* Debug */,
+				CE2819B71AFEB00100D1E5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2819781AFEAFFF00D1E5E5 /* Project object */;
+}
